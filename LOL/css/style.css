@@ -1,0 +1,698 @@
+.suo-pig,.app-pig,.logo,.geren-kuang,.bofanganniu,.menu span,.menu i,.icon-18{
+	background: url(../images/spr-2.png) no-repeat;
+}
+.top{
+	height: 90px;
+	background-color: #0b0b0b;
+}
+.nav{
+	padding-left: 190px;
+}
+.nav-lfet{
+	width: 600px;
+	height: 90px;
+	overflow: hidden;
+}
+.nav-left li{
+	float: left;
+	width: 120px;
+	height: 90px;
+}
+.nav-left a{
+	display: block;           /* -------块属性 */
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;		   /* 行内居中 */
+	color: #fafafa;
+	font-size: 18px;
+}
+.nav-left span{
+    display: block;
+    font-size: 10px;
+    color: #838383;
+    font-family: 'Tahoma';
+    text-transform: uppercase;
+    }
+.suo{
+	float: left;
+	width: 40px;
+	height: 90px;
+	margin-left: 5px;
+	text-align: center;
+}
+.suo-pig{
+	display:inline-block;
+	width: 27px;
+	height: 27px;
+	margin-top: 25px;
+	background-position: -8px 0;
+}
+.app{
+	float: left;
+	width: 40px;
+	height: 90px;
+	margin-left: 5px;
+	text-align: center;
+}
+.app-pig{
+	display:inline-block;			/* 转换为行属性和块属性 */
+	width: 27px;
+	height: 27px;
+	margin-top: 25px;
+	background-position: -45px 0;
+}
+.gerendenglu{
+	height: 90px;
+}
+.geren{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 90px;
+}
+.geren-kuang{
+	position: absolute;
+    left: 13px;
+    top: 8px;
+	width: 74px;
+	height: 74px;
+	background-position: 0 -169px;
+}
+.geren-kuang img{
+	width: 60px;
+    height: 60px;
+    margin-left: 7px;
+    margin-top: 9px;
+    border-radius: 33px;
+}
+.denglu{
+	padding-top: 18px;
+	margin-left: 110px;
+}
+.denglu-s{
+	font-size: 16px;
+    color: #fff;
+    padding: 5px 0;
+}
+.denglu-s a{
+	color: #dfb257;
+    text-decoration: underline;
+    margin: -5px;
+    cursor: pointer;
+}
+.denglu-b{
+	color: #999;
+    font-size: 12px;
+}
+.logo{
+	width: 190px;
+	height:100px;
+	background-position: 0px -30px;
+	float: left;
+	position:absolute;
+	left:0;
+	top:-75px;
+	z-index: 2;
+}
+.logo a{ 
+	display: block;
+	width: 100%; height: 100%;
+	overflow: hidden;
+}
+
+/* banner部分 */
+
+/* 自动播放部分 */
+.banner{
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+.zidongbofang{
+	position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    width: 1920px;
+    height: 350px;
+    z-index: 1;
+}
+/* banner里文字 部分 */
+.banner-wenzi{
+	height: 310px;
+    padding-top: 45px;
+    position: absolute;
+    z-index: 3;
+}
+.duijue{
+	position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+    color: #ffcb60;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,232,184,1)), to(rgba(175,133,48,1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-wenzi span{
+	position: absolute;
+    left: 0;
+}
+.zhixu{
+	width: 550px;
+    height: 60px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #dbdbdb;
+    line-height: 30px;
+}
+.xiaochuangkou{
+	width: 220px;
+	height: 120px;
+	position: relative;
+}
+.xiaoshipin{
+	width: 220px;
+	height: 120px;
+	border: 1px solid #987630;
+	margin-top: -45px;
+}
+.bofanganniu{
+	display: block;
+	width: 35px;
+    height: 50px;
+    background-position: -230px -30px;
+    margin-top: 35px;
+    margin-left: 93px;
+    position: absolute;
+    top: -40px;
+}
+.xiangxixinxi{
+	display: block;
+    width: 155px;
+    height: 36px;
+    border: 2px solid #bd9440;
+    text-align: center;
+    line-height: 36px;
+    background:#000;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c89b3c;
+    top: 281px;
+    position: absolute;
+}
+.banben{
+	color: #888787;
+    right: -685px;
+    bottom: 35px;
+    font-size: 14px;
+    position: absolute;
+}
+.banben em{
+	color: #f5d185;
+    margin-right: 10px;
+    font-style: normal;			/* 字体正常 */
+}
+.banben a{
+	float: right;
+    display: block;
+    width: 80px;
+    height: 22px;
+    border: 2px solid #bd9440;
+    text-align: center;
+    line-height: 22px;
+    background: #000;
+    font-size: 12px;
+    font-weight: bold;
+    color: #c89b3c;
+    background: rgba(0,0,0,0.65);
+}
+.box1{
+	width: 100%;
+    height: 80px;
+    border-top: 2px solid #8c6c2d;
+    background: url(../images/spr-2.png) repeat-x 0 -257px;
+}
+.box1 li{
+	float: left;
+	width: 110px;
+    height: 58px;
+    line-height: 58px;
+    margin-right: 35px;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+    color: #555555;
+    text-align: center;
+    cursor: pointer;
+}
+.box1 .ls{
+	color: #d1ab57;
+    border-bottom: 2px solid #d1ab57;
+}
+.box2-bg{
+	width: 100%;
+	height: 500px;
+	background: url(../images/bg-content-top.jpg) no-repeat center top;
+}
+.lunbo{
+    overflow: hidden;
+    width: 820px;
+}
+.lunbo ul{
+	width: 4100px;
+	height: 350px;
+}
+.lunbo ul li{
+	float: left;
+	width:820px;
+	height: 350px;
+}
+.lunbo a{
+	display: block;
+    width: 820px;
+    height: 350px;
+}
+.lunbo ul li img{
+	display: block;
+    width: 820px;
+    height: 350px;
+}
+.box2{
+    overflow: hidden;
+}
+.box2 .anniu{
+    width: 66.2%;
+    height: 50px;
+    background: #121112;
+    overflow: hidden;
+}
+.anniu span:hover{
+    background-color: #222222;
+}
+.box2 .anniu span{
+	float: left;
+    width: 164px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: #c8c8c8;
+    font-size: 14px
+}
+.box2 .anniu .mun1{
+    color: #d1ab57;
+}
+.cebian{
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+.cebian-bg{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    background: url(../images/bg-download.jpg) no-repeat 0 0
+}
+.cebian-bg a{
+    display: block;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.cebian-mp4{
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+.menu li{
+    float: left;
+    width: 128px;
+    height: 55px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.menu a{
+    display: block;
+    width: 128px;
+    height: 55px;
+    line-height: 55px;
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #555555
+}
+.menu span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.menu .icon-xs{
+    background-position: -200px 0;
+}
+.menu .icon-yz{
+    background-position: -560px 0;
+}
+.menu .icon-zb{
+    background-position: -590px 0;
+}
+.menu .icon-xk{
+    background-position: -380px 0;
+}
+.menu .icon-xg{
+    background-position: -650px 0;
+}
+.menu .icon-cd{
+    background-position: -290px 0;
+}
+.menu .icon-lh{
+    background-position: -620px 0;
+}
+.menu .icon-yx{
+    background-position: -260px 0;
+}
+.menu .icon-lj{
+    background-position: -470px 0;
+}
+.menu .icon-gf{
+    background-position: -500px 0;
+}
+.menu .icon-wj{
+    background-position: -410px 0;
+}
+
+.menu .icon-zx{
+    background-position: -440px 0;
+}
+.icon-hot,.icon-new{
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+}
+.menu .icon-hot{
+    position: absolute;
+    margin-top: 3px;
+    background-position: -107px 0;
+}
+.menu .icon-new{
+    position: absolute;
+    margin-top: 3px;
+    background-position: -129px 0;
+}
+.cebian ul li a:hover{
+    background-color:#cdcdcd;
+}
+.xinwen{
+    overflow: hidden;
+    width: 820px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    position: relative;
+    top:40px;
+}
+.xinwen .one{
+    margin-top: 14px;
+    position: relative;
+    height: 36px;
+    border-bottom: 3px solid #ededee;
+}
+.xinwen .one li{
+    float: left;
+    width: 168px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+.xinwen .zhonghe{
+    color: #d1ab57;
+    font-weight: bold;
+    border-bottom: 3px solid #d1ab57;
+}
+.xinwen .zuixin{
+    float: left;
+    font-size: 26px;
+    line-height: 50px;
+    color: #404040;
+    margin-right: 40px;
+    font-weight: normal;
+}
+.zoumian{
+    overflow: hidden;
+    width: 370px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    position: relative;
+    top: -72px;
+    left: 864px;
+}
+.zoumian .two{
+    margin-top: 14px;
+    position: relative;
+    height: 36px;
+    border-bottom: 3px solid #ededee;
+}
+.zoumian .two li{
+    float: left;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+.zoumian .zoumianx{
+    color: #d1ab57;
+    font-weight: bold;
+    border-bottom: 3px solid #d1ab57;
+}
+.box3-bg{
+    width: 100%;
+    background: url(../images/bg-content-bottom.jpg) no-repeat center bottom;
+    margin: 0 auto;
+}
+.box3{
+    overflow: hidden;
+}
+.box3 .first{
+    width: 820px;
+    height: 124px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.box3 .first img{
+    float: left;
+    margin-right: 20px;
+}
+.first .first-one{
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #3e3e3e;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.first .first-two{
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #898989;
+    line-height: 1.5;
+}
+.two ul li{
+    height: 35px;
+    line-height: 35px;
+    padding: 4px 0;
+}
+.two ul li a{
+    display: block;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 55px 0 90px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #555555;
+}
+.two .sp1:hover{
+    background-color: #d1ab57;
+}
+.two a:hover{
+    color: #d1ab57;
+}
+
+.sp1{
+        position: absolute;
+    left: 0;
+    top: 0;
+    width: 68px;
+    height: 35px;
+    line-height: 35px;
+    background: #ebebeb;
+    text-align: center;
+    color: #7a7a7a;
+}
+.sp2{
+    position: absolute;
+    right: 420px;
+    top: 0;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+    color: #bababa;
+}
+.two-bottom{
+    display: block;
+    width: 70%;
+    height: 45px;
+    margin-top: 15px;
+    line-height: 45px;
+    background: #f0f0f0;
+    color: #515151;
+    font-size: 16px;
+    text-align: center;
+}
+.two-bottom em{
+    font-style: normal;
+    color: #d1ab57;
+}
+.two-bottom:hover{
+    background-color: #b7b6b6;
+}
+.three{
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    right: -25px;
+}
+.three ul{
+    height: 400px;
+    margin-bottom: 20px;
+}
+.three ul li{
+    position: relative;
+    margin-right: -10px;
+}
+.three li a{
+    float: left;
+    position: relative;
+    width: 195px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.three img{
+    display: block;
+    width: 195px;
+    height: 70px;
+}
+.sbg:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    background: rgba(0,0,0,0.78);
+    color: #d1ab57;
+    cursor: pointer;
+    overflow: hidden;
+}
+.three .first-name{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30px;
+    left: 50%;
+    margin-left: -97px;
+    padding-top: 0;
+    line-height: 100px;
+}
+.three .first-name:hover{
+    line-height: 14px;
+}
+.three-bottom{
+    text-align: right;
+    color: #9F9F9F;
+    margin-top: -22px;
+    font-size: 12px;
+}
+.qt-go{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.qt-go img{
+    width: 400px;
+    height: 90px;
+}
+.side-tips-18 {
+    font-size: 12px;
+    color: #878787;
+    position: relative;
+    height: 70px;
+    padding-top: 5px;
+    padding-left: 80px;
+}
+.icon-18 {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    background-position: -330px -89px;
+}
+.side-tips-18 h5 {
+    color: #404040;
+    font-size: 14px;
+    font-weight: normal;
+}
+.footer {
+    height: 100px;
+    padding: 30px 0;
+    zoom: 1;
+    background: url(../images/bg-footer.jpg) no-repeat center top;
+
+}
+.footer-inner {
+    padding-left: 380px;
+    width: 860px;
+    zoom: 1;
+    color: #A5A5A5;
+}
+.footer-flst {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    left: 250px;
+}
+.footer ul li{
+    float: left;
+}
+.footer .c4F6 {
+    color: #568193;
+}
+.footer .f9 {
+    font-size: 11px;
+    color: #568193;
+}
